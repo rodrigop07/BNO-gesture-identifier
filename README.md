@@ -9,7 +9,7 @@ Este projeto implementa um modelo de **Machine Learning embarcado (TinyML)** par
 - **Integração com Display OLED**: Fornece feedback visual em tempo real do nível de volume atual através de uma tela OLED onboard gerenciada pela biblioteca **LVGL**.
 - **Leitura Estável de Sensores**: O BNO085 é lido a 100Hz (acelerômetro e giroscópio) de forma assíncrona. Os dados são protegidos contra condições de corrida (*race conditions*) utilizando Mutex (FreeRTOS).
 
-## 🛠️ Tecnologias e Dependências
+## Tecnologias e Dependências
 
 - **Microcontrolador:** Família ESP32 (ex: Heltec WiFi LoRa 32 V3 / ESP32-S3)
 - **Sensor:** BNO085 (Comunicação I2C)
