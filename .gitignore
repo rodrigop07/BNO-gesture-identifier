@@ -71,6 +71,7 @@ ehthumbs.db
 Desktop.ini
 
 # User-specific configuration files
+.vscode/
 .clangd
 *.user
 *.workspace # General workspace files, can be from various tools
